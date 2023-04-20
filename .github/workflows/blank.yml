@@ -13,7 +13,7 @@ jobs:
 
     runs-on: ubuntu-20.04
 
-    if: github.ref == 'refs/heads/master'
+    if: github.ref == 'refs/heads/main'
 
     strategy:
       matrix:
@@ -32,6 +32,6 @@ jobs:
           switches: -avzr --delete
           path: ./*
           remote_path: /var/www/todo/
-          remote_host: ec2-34-218-250-140.us-west-2.compute.amazonaws.com
+          remote_host: ec2-35-92-36-213.us-west-2.compute.amazonaws.com
           remote_user: ubuntu
           remote_key: "${{ secrets.SSH_PRIVATE_KEY }}"
