@@ -15,9 +15,9 @@ app.use((req, res, next) => {
 });
 
 const corsOptions = {
-  origin: ['http://54.189.145.65', 'http://54.189.145.65:81'],
-  methods: ['POST','GET'],
-  allowedHeaders: 'Content-Type'
+  origin: '*',
+  methods: '*',
+  allowedHeaders: '*'
 };
 
 app.use(cors(corsOptions));
