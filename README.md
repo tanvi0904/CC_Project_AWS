@@ -1,4 +1,4 @@
-# Project - 3: Deployment of Web App Using AWS Cloud
+CC Project
 ## Team Member Names and SRN 
 ### Utkarsh Bagaria - PES1UG20CS477
 ### Tanvi Rajesh - PES1UG20CS461
